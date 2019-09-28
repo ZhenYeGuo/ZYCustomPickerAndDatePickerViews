@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E847B0C6233F0C9F00E87E95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0C5233F0C9F00E87E95 /* AppDelegate.m */; };
+		E847B0C9233F0C9F00E87E95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0C8233F0C9F00E87E95 /* ViewController.m */; };
+		E847B0CC233F0C9F00E87E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E847B0CA233F0C9F00E87E95 /* Main.storyboard */; };
+		E847B0CE233F0CA100E87E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E847B0CD233F0CA100E87E95 /* Assets.xcassets */; };
+		E847B0D1233F0CA100E87E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E847B0CF233F0CA100E87E95 /* LaunchScreen.storyboard */; };
+		E847B0D4233F0CA100E87E95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0D3233F0CA100E87E95 /* main.m */; };
+		E847B0E5233F0D1000E87E95 /* UIColor+KQExpanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0DD233F0D1000E87E95 /* UIColor+KQExpanded.m */; };
+		E847B0E6233F0D1000E87E95 /* ZYDateTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0DE233F0D1000E87E95 /* ZYDateTimePickerView.m */; };
+		E847B0E7233F0D1000E87E95 /* UIButton+ZYExpandBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0DF233F0D1000E87E95 /* UIButton+ZYExpandBtn.m */; };
+		E847B0E8233F0D1000E87E95 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E847B0E1233F0D1000E87E95 /* README.md */; };
+		E847B0E9233F0D1000E87E95 /* ZYSingeRowPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E847B0E3233F0D1000E87E95 /* ZYSingeRowPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E847B0C1233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCustomPickerAndDatePickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E847B0C4233F0C9F00E87E95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E847B0C5233F0C9F00E87E95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E847B0C7233F0C9F00E87E95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E847B0C8233F0C9F00E87E95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E847B0CB233F0C9F00E87E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E847B0CD233F0CA100E87E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E847B0D0233F0CA100E87E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E847B0D2233F0CA100E87E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E847B0D3233F0CA100E87E95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E847B0DB233F0D1000E87E95 /* ZYDateTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDateTimePickerView.h; sourceTree = "<group>"; };
+		E847B0DC233F0D1000E87E95 /* UIButton+ZYExpandBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZYExpandBtn.h"; sourceTree = "<group>"; };
+		E847B0DD233F0D1000E87E95 /* UIColor+KQExpanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KQExpanded.m"; sourceTree = "<group>"; };
+		E847B0DE233F0D1000E87E95 /* ZYDateTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDateTimePickerView.m; sourceTree = "<group>"; };
+		E847B0DF233F0D1000E87E95 /* UIButton+ZYExpandBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZYExpandBtn.m"; sourceTree = "<group>"; };
+		E847B0E0233F0D1000E87E95 /* UIColor+KQExpanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KQExpanded.h"; sourceTree = "<group>"; };
+		E847B0E1233F0D1000E87E95 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E847B0E3233F0D1000E87E95 /* ZYSingeRowPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSingeRowPickerView.m; sourceTree = "<group>"; };
+		E847B0E4233F0D1000E87E95 /* ZYSingeRowPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSingeRowPickerView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E847B0BE233F0C9F00E87E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E847B0B8233F0C9F00E87E95 = {
+			isa = PBXGroup;
+			children = (
+				E847B0C3233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo */,
+				E847B0C2233F0C9F00E87E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E847B0C2233F0C9F00E87E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E847B0C1233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E847B0C3233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E847B0E2233F0D1000E87E95 /* ZYPickView */,
+				E847B0DA233F0D1000E87E95 /* DatePickerView */,
+				E847B0E1233F0D1000E87E95 /* README.md */,
+				E847B0C4233F0C9F00E87E95 /* AppDelegate.h */,
+				E847B0C5233F0C9F00E87E95 /* AppDelegate.m */,
+				E847B0C7233F0C9F00E87E95 /* ViewController.h */,
+				E847B0C8233F0C9F00E87E95 /* ViewController.m */,
+				E847B0CA233F0C9F00E87E95 /* Main.storyboard */,
+				E847B0CD233F0CA100E87E95 /* Assets.xcassets */,
+				E847B0CF233F0CA100E87E95 /* LaunchScreen.storyboard */,
+				E847B0D2233F0CA100E87E95 /* Info.plist */,
+				E847B0D3233F0CA100E87E95 /* main.m */,
+			);
+			path = ZYCustomPickerAndDatePickerViewDemo;
+			sourceTree = "<group>";
+		};
+		E847B0DA233F0D1000E87E95 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E847B0DB233F0D1000E87E95 /* ZYDateTimePickerView.h */,
+				E847B0DC233F0D1000E87E95 /* UIButton+ZYExpandBtn.h */,
+				E847B0DD233F0D1000E87E95 /* UIColor+KQExpanded.m */,
+				E847B0DE233F0D1000E87E95 /* ZYDateTimePickerView.m */,
+				E847B0DF233F0D1000E87E95 /* UIButton+ZYExpandBtn.m */,
+				E847B0E0233F0D1000E87E95 /* UIColor+KQExpanded.h */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		E847B0E2233F0D1000E87E95 /* ZYPickView */ = {
+			isa = PBXGroup;
+			children = (
+				E847B0E3233F0D1000E87E95 /* ZYSingeRowPickerView.m */,
+				E847B0E4233F0D1000E87E95 /* ZYSingeRowPickerView.h */,
+			);
+			path = ZYPickView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E847B0C0233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E847B0D7233F0CA100E87E95 /* Build configuration list for PBXNativeTarget "ZYCustomPickerAndDatePickerViewDemo" */;
+			buildPhases = (
+				E847B0BD233F0C9F00E87E95 /* Sources */,
+				E847B0BE233F0C9F00E87E95 /* Frameworks */,
+				E847B0BF233F0C9F00E87E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCustomPickerAndDatePickerViewDemo;
+			productName = ZYCustomPickerAndDatePickerViewDemo;
+			productReference = E847B0C1233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E847B0B9233F0C9F00E87E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = KuoShuChing;
+				TargetAttributes = {
+					E847B0C0233F0C9F00E87E95 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E847B0BC233F0C9F00E87E95 /* Build configuration list for PBXProject "ZYCustomPickerAndDatePickerViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E847B0B8233F0C9F00E87E95;
+			productRefGroup = E847B0C2233F0C9F00E87E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E847B0C0233F0C9F00E87E95 /* ZYCustomPickerAndDatePickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E847B0BF233F0C9F00E87E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E847B0D1233F0CA100E87E95 /* LaunchScreen.storyboard in Resources */,
+				E847B0CE233F0CA100E87E95 /* Assets.xcassets in Resources */,
+				E847B0E8233F0D1000E87E95 /* README.md in Resources */,
+				E847B0CC233F0C9F00E87E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E847B0BD233F0C9F00E87E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E847B0E5233F0D1000E87E95 /* UIColor+KQExpanded.m in Sources */,
+				E847B0E6233F0D1000E87E95 /* ZYDateTimePickerView.m in Sources */,
+				E847B0C9233F0C9F00E87E95 /* ViewController.m in Sources */,
+				E847B0D4233F0CA100E87E95 /* main.m in Sources */,
+				E847B0C6233F0C9F00E87E95 /* AppDelegate.m in Sources */,
+				E847B0E9233F0D1000E87E95 /* ZYSingeRowPickerView.m in Sources */,
+				E847B0E7233F0D1000E87E95 /* UIButton+ZYExpandBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E847B0CA233F0C9F00E87E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E847B0CB233F0C9F00E87E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E847B0CF233F0CA100E87E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E847B0D0233F0CA100E87E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E847B0D5233F0CA100E87E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E847B0D6233F0CA100E87E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E847B0D8233F0CA100E87E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCustomPickerAndDatePickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYCustomPickerAndDatePickerView.COM.ZYCustomPickerAndDatePickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E847B0D9233F0CA100E87E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCustomPickerAndDatePickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYCustomPickerAndDatePickerView.COM.ZYCustomPickerAndDatePickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E847B0BC233F0C9F00E87E95 /* Build configuration list for PBXProject "ZYCustomPickerAndDatePickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E847B0D5233F0CA100E87E95 /* Debug */,
+				E847B0D6233F0CA100E87E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E847B0D7233F0CA100E87E95 /* Build configuration list for PBXNativeTarget "ZYCustomPickerAndDatePickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E847B0D8233F0CA100E87E95 /* Debug */,
+				E847B0D9233F0CA100E87E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E847B0B9233F0C9F00E87E95 /* Project object */;
+}
